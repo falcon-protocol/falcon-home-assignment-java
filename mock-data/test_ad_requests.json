@@ -1,0 +1,62 @@
+[
+  {
+    "test_name": "User suppressed by TechCorp and LuxuryStore",
+    "request": {
+      "placement_id": "placement_001",
+      "user_email_hash": "a1b2c3d4e5f6789abcdef123456789abcdef123456789abcdef123456789abcd"
+    },
+    "expected_behavior": {
+      "suppressed_advertisers": ["adv_techcorp", "adv_luxurystore"],
+      "can_serve_from": ["adv_gamestudio"],
+      "note": "This user appears in both TechCorp and LuxuryStore suppression lists"
+    }
+  },
+  {
+    "test_name": "User suppressed by GameStudio only",
+    "request": {
+      "placement_id": "placement_002",
+      "user_email_hash": "d4e5f6a7b8c9012def234567890abcdef34567890abcdef3456789012345678"
+    },
+    "expected_behavior": {
+      "suppressed_advertisers": ["adv_gamestudio"],
+      "can_serve_from": ["adv_techcorp", "adv_luxurystore"],
+      "note": "This user appears only in GameStudio suppression list"
+    }
+  },
+  {
+    "test_name": "User not suppressed by anyone",
+    "request": {
+      "placement_id": "placement_003",
+      "user_email_hash": "9999999999999999999999999999999999999999999999999999999999999999"
+    },
+    "expected_behavior": {
+      "suppressed_advertisers": [],
+      "can_serve_from": ["adv_techcorp", "adv_gamestudio", "adv_luxurystore"],
+      "note": "This user is not in any suppression list - all advertisers are eligible"
+    }
+  },
+  {
+    "test_name": "User suppressed by TechCorp from Competitors list",
+    "request": {
+      "placement_id": "placement_001",
+      "user_email_hash": "fedcba9876543210fedcba9876543210fedcba9876543210fedcba9876543210"
+    },
+    "expected_behavior": {
+      "suppressed_advertisers": ["adv_techcorp"],
+      "can_serve_from": ["adv_gamestudio", "adv_luxurystore"],
+      "note": "This user is in TechCorp's Competitors suppression list"
+    }
+  },
+  {
+    "test_name": "User suppressed by GameStudio from Privacy Opt-Outs",
+    "request": {
+      "placement_id": "placement_002",
+      "user_email_hash": "abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789"
+    },
+    "expected_behavior": {
+      "suppressed_advertisers": ["adv_gamestudio"],
+      "can_serve_from": ["adv_techcorp", "adv_luxurystore"],
+      "note": "This user opted out of GameStudio ads for privacy reasons"
+    }
+  }
+]

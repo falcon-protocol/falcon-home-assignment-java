@@ -1,0 +1,56 @@
+[
+  {
+    "id": "list_001",
+    "advertiser_id": "adv_techcorp",
+    "name": "TechCorp Existing Customers",
+    "identifiers": [
+      "a1b2c3d4e5f6789abcdef123456789abcdef123456789abcdef123456789abcd",
+      "b2c3d4e5f6a7890bcdef0123456789abcdef123456789abcdef1234567890abc",
+      "c3d4e5f6a7b8901cdef12345678901bcdef23456789abcdef234567890abcdef"
+    ],
+    "created_at": "2024-01-15T10:30:00Z"
+  },
+  {
+    "id": "list_002",
+    "advertiser_id": "adv_gamestudio",
+    "name": "GameStudio Mobile Users",
+    "identifiers": [
+      "d4e5f6a7b8c9012def234567890abcdef34567890abcdef3456789012345678",
+      "e5f6a7b8c9d0123ef34567890abcdef4567890abcdef456789012345678901a",
+      "f6a7b8c9d0e1234f4567890abcdef567890abcdef5678901234567890ab1234"
+    ],
+    "created_at": "2024-01-16T14:20:00Z"
+  },
+  {
+    "id": "list_003",
+    "advertiser_id": "adv_luxurystore",
+    "name": "LuxuryStore VIP Customers",
+    "identifiers": [
+      "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+      "1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+      "a1b2c3d4e5f6789abcdef123456789abcdef123456789abcdef123456789abcd"
+    ],
+    "created_at": "2024-01-17T09:15:00Z"
+  },
+  {
+    "id": "list_004",
+    "advertiser_id": "adv_techcorp",
+    "name": "TechCorp Competitors",
+    "identifiers": [
+      "fedcba9876543210fedcba9876543210fedcba9876543210fedcba9876543210",
+      "edcba9876543210fedcba9876543210fedcba9876543210fedcba98765432109"
+    ],
+    "created_at": "2024-01-18T11:45:00Z"
+  },
+  {
+    "id": "list_005",
+    "advertiser_id": "adv_gamestudio",
+    "name": "GameStudio Privacy Opt-Outs",
+    "identifiers": [
+      "abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789",
+      "bcdef0123456789abcdef0123456789abcdef0123456789abcdef01234567890a",
+      "cdef0123456789abcdef0123456789abcdef0123456789abcdef01234567890ab"
+    ],
+    "created_at": "2024-01-19T16:30:00Z"
+  }
+]

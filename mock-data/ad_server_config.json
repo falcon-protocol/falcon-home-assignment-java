@@ -1,0 +1,93 @@
+{
+  "banners": [
+    {
+      "id": "banner_001",
+      "advertiser_id": "adv_techcorp",
+      "campaign_id": "camp_tech_001",
+      "name": "TechCorp Premium Software Ad",
+      "creative_url": "https://cdn.example.com/tech_premium.jpg",
+      "click_url": "https://techcorp.example.com/premium",
+      "width": 300,
+      "height": 250,
+      "weight": 10
+    },
+    {
+      "id": "banner_002",
+      "advertiser_id": "adv_techcorp",
+      "campaign_id": "camp_tech_002",
+      "name": "TechCorp Free Trial Ad",
+      "creative_url": "https://cdn.example.com/tech_trial.jpg",
+      "click_url": "https://techcorp.example.com/trial",
+      "width": 300,
+      "height": 250,
+      "weight": 15
+    },
+    {
+      "id": "banner_003",
+      "advertiser_id": "adv_gamestudio",
+      "campaign_id": "camp_game_001",
+      "name": "GameStudio New Release Ad",
+      "creative_url": "https://cdn.example.com/game_release.jpg",
+      "click_url": "https://gamestudio.example.com/new-game",
+      "width": 728,
+      "height": 90,
+      "weight": 20
+    },
+    {
+      "id": "banner_004",
+      "advertiser_id": "adv_gamestudio",
+      "campaign_id": "camp_game_002",
+      "name": "GameStudio Mobile Download Ad",
+      "creative_url": "https://cdn.example.com/game_mobile.jpg",
+      "click_url": "https://gamestudio.example.com/mobile",
+      "width": 320,
+      "height": 50,
+      "weight": 12
+    },
+    {
+      "id": "banner_005",
+      "advertiser_id": "adv_luxurystore",
+      "campaign_id": "camp_luxury_001",
+      "name": "LuxuryStore Winter Sale Ad",
+      "creative_url": "https://cdn.example.com/luxury_winter.jpg",
+      "click_url": "https://luxurystore.example.com/winter-sale",
+      "width": 300,
+      "height": 250,
+      "weight": 8
+    },
+    {
+      "id": "banner_006",
+      "advertiser_id": "adv_luxurystore",
+      "campaign_id": "camp_luxury_002",
+      "name": "LuxuryStore VIP Exclusive Ad",
+      "creative_url": "https://cdn.example.com/luxury_vip.jpg",
+      "click_url": "https://luxurystore.example.com/vip",
+      "width": 300,
+      "height": 600,
+      "weight": 5
+    }
+  ],
+  "placements": [
+    {
+      "id": "placement_001",
+      "site_id": "site_news_001",
+      "name": "News Site - Homepage Sidebar",
+      "width": 300,
+      "height": 250
+    },
+    {
+      "id": "placement_002",
+      "site_id": "site_blog_001",
+      "name": "Tech Blog - Article Top Banner",
+      "width": 728,
+      "height": 90
+    },
+    {
+      "id": "placement_003",
+      "site_id": "site_mobile_001",
+      "name": "Mobile App - Bottom Banner",
+      "width": 320,
+      "height": 50
+    }
+  ]
+}
